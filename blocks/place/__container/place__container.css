@@ -1,11 +1,11 @@
-.place__image__container {
+.place__container {
     margin-left: -16px;
     margin-right: -16px;
     margin-bottom: 32px;
 }
 
 @media screen and (min-width: 768px){
-    .place__image__container {
+    .place__container {
         margin: 0;
         max-width: 340px;
         max-height: 340;
@@ -13,14 +13,14 @@
 }
 
 @media screen and (min-width: 1024px){
-    .place__image__container {
+    .place__container {
         max-width: 440px;
         max-height: 440px;
     }
 }
 
 @media screen and (min-width: 1280px){
-    .place__image__container {
+    .place__container {
         max-width: 460px;
         max-height: 460px;
     }
