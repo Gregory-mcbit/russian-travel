@@ -1,0 +1,27 @@
+.lead__image__container {
+    margin-left: -16px;
+    margin-right: -16px;
+    margin-bottom: 8px;
+    min-width: 320px;
+    min-height: 200px;
+}
+
+@media screen and (min-width: 768px){
+    .lead__image__container {
+        margin-left: -24px;
+        margin-right: -24px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .lead__image__container {
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .lead__image__container {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}

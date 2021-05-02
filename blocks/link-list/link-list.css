@@ -1,0 +1,12 @@
+.link-list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 48px;
+}
+
+@media screen and (min-width: 768px){
+    .link-list {
+        flex-direction: row;
+        margin-bottom: 24px;
+    }
+}

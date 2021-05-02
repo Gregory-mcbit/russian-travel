@@ -1,0 +1,10 @@
+.list {
+    padding: 0;
+    list-style: none;
+}
+
+@media screen and (min-width: 1280px){
+    .list {
+        margin-left: 100px;
+    }
+}

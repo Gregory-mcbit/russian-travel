@@ -1,0 +1,15 @@
+.header__lang-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin-top: 14px;
+    margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px){
+    .header__lang-list {
+        margin-top: 18px;
+        margin-bottom: 6px;
+    }
+}

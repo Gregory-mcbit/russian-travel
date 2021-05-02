@@ -1,0 +1,32 @@
+.cover {
+    margin: 0;
+    margin-left: -16px;
+    margin-right: -16px;
+    margin-bottom: 64px;
+    max-width: calc(100% + 32px);
+}
+
+@media screen and (min-width: 768px){
+    .cover {
+        margin-left: -24px;
+        margin-right: -24px;
+        margin-bottom: 88px;
+        max-width: calc(100% + 48px);
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .cover {
+        margin-left: -48px;
+        margin-right: -48px;
+        margin-bottom: 92px;
+        max-width: calc(100% + 48px * 2);
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .cover {
+        margin: 0;
+        margin-bottom: 92px;
+    }
+}
