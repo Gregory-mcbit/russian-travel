@@ -1,4 +1,5 @@
 .page__container {
+    max-width: 1280px;
     margin-top: 16px;
     margin-left: 16px;
     margin-right: 16px;
@@ -16,5 +17,12 @@
     .page__container {
         margin-left: 48px;
         margin-right: 48px;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .page__container {
+        margin-left: calc((100% - 1280px) / 2);
+        margin-right: calc((100% - 1280px) / 2);
     }
 }

@@ -12,7 +12,6 @@
     .lead__subtitle {
         margin-bottom: 56px;
         max-width: 640px;
-        max-height: 72px;
         margin-left: calc((100% - 640px) / 2);
         font-size: 30px;
         line-height: 36px;

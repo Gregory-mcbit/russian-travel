@@ -31,7 +31,7 @@
 }
 
 @media screen and (min-width: 768px){
-    .cover__link {
+    .cover__image {
         padding-top: calc(31.25% - 240px);
         padding-bottom: calc(31.25% - 240px);
         min-height: 480px;
@@ -39,7 +39,7 @@
 }
 
 @media screen and (min-width: 1024px){
-    .cover__link {
+    .cover__image {
         padding-top: calc(31.25% - 320px);
         padding-bottom: calc(31.25% - 320px);
         min-height: 640px;
@@ -47,7 +47,7 @@
 }
 
 @media screen and (min-width: 1280px){
-    .cover__link {
+    .cover__image {
         padding-top: calc(31.25% - 370px);
         padding-bottom: calc(31.25% - 370px);
         min-height: 740px;

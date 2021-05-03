@@ -12,6 +12,7 @@
         margin-right: -24px;
         margin-bottom: 88px;
         max-width: calc(100% + 48px);
+        min-height: 480px;
     }
 }
 
@@ -21,6 +22,7 @@
         margin-right: -48px;
         margin-bottom: 92px;
         max-width: calc(100% + 48px * 2);
+        min-height: 640px;
     }
 }
 
@@ -28,5 +30,6 @@
     .cover {
         margin: 0;
         margin-bottom: 92px;
+        min-height: 740px;
     }
 }

@@ -1,4 +1,4 @@
-.grid-text__paragraph {
+.place__paragraph {
     margin: 0;
     font-family: 'Inter';
     font-style: normal;
@@ -8,20 +8,20 @@
 }
 
 @media screen and (min-width: 768px){
-    .grid-text__paragraph {
+    .place__paragraph {
         max-width: 352px;
     }
 }
 
 @media screen and (min-width: 1024px){
-    .grid-text__paragraph {
+    .place__paragraph {
         font-size: 18px;
         max-width: 456px;
     }
 }
 
 @media screen and (min-width: 1280px){
-    .grid-text__paragraph {
+    .place__paragraph {
         max-width: 484px;
     }
 }
